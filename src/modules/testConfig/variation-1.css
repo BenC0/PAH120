@@ -1,0 +1,12 @@
+.pah .pah120_loaded:not(.pbdy_mobile),
+.pah120_loaded:not(.pbdy_mobile) {
+	& #secureCheckoutBtn {
+		width: auto;
+		padding: 0 2.125rem 0 calc(.9375rem + 1.625rem + .75rem);
+		line-height: 0px;
+	}
+
+	& #secureCheckoutBtn::before {
+		left: 1.425rem;
+	}
+}
